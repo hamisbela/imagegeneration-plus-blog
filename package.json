@@ -1,0 +1,21 @@
+{
+  "name": "vite-typescript-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "import-blog": "NODE_OPTIONS='--loader ts-node/esm' node --experimental-specifier-resolution=node scripts/importBlog.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vite": "^5.4.8",
+    "ts-node": "^10.9.1",
+    "@types/node": "^20.8.0",
+    "adm-zip": "^0.5.10",
+    "@types/adm-zip": "^0.5.0",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
